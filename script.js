@@ -8,5 +8,5 @@ price.forEach((item)=>{
 console.log(sum);
 let tr = document.createElement("tr");
  let table = document.getElementById("table");
-tr.innerHTML="<td>"+sum+"</td>";
+tr.innerHTML="<td colspan='2'>"+sum+"</td>";
 table.appendChild(tr);
