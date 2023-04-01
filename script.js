@@ -6,7 +6,6 @@ price.forEach((item)=>{
 	sum += +item.innerText;	
 })
 console.log(sum);
-let tr = document.createElement("tr");
- let table = document.getElementById("table");
-tr.innerHTML=sum;
-table.appendChild(tr);
+ let total = document.getElementById("grandtotal");
+total.innerHTML=sum;
+
